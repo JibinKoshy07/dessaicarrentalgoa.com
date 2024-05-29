@@ -161,6 +161,20 @@ body {
   color: #fff;
 }
 
+/* 
+--------------------------------------------
+rate tag
+--------------------------------------------
+*/
+
+/* .price-tag{
+  background-color: rgb(185, 255, 95);
+  color: #f9735b;
+} */
+
+
+
+
 
 /* 
 ---------------------------------------------
@@ -213,7 +227,7 @@ header
 .header-area .main-nav .logo {
   line-height: 80px;
   color: #fff;
-  font-size: 32px;
+  font-size: 25px;
   font-weight: 800;
   text-transform: uppercase;
   float: left;
@@ -285,7 +299,7 @@ header
   position: absolute;
   top: 23px;
   width: 32px;
-  height: 40px;
+  height: 80px;
   text-indent: -9999em;
   z-index: 99;
   right: 40px;
@@ -911,12 +925,13 @@ trainers
 }
 
 #trainers .trainer-item span {
-  font-size: 13px;
+  font-size: 18px;
   font-weight: 500;
-  color: #60FF39;
+  color: #ff3939;
   display: inline-block;
   margin-top: 25px;
   margin-bottom: 10px;
+  font-weight:bold;
 }
 
 #trainers .trainer-item h4 {
