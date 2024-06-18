@@ -924,10 +924,13 @@ trainers
   border-radius: 5px;
 }
 
+
+/* Text colour (Price) */
+
 #trainers .trainer-item span {
   font-size: 18px;
   font-weight: 500;
-  color: #ff3939;
+  color: #000000;
   display: inline-block;
   margin-top: 25px;
   margin-bottom: 10px;
@@ -958,6 +961,8 @@ ul.social-icons li:last-child {
 ul.social-icons li a {
   color: #232d39;
   transition: all .3s;
+  color: #f9735b;
+  font-weight: bolder;
 }
 
 ul.social-icons li a:hover {
