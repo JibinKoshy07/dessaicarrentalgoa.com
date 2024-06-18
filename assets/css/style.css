@@ -961,12 +961,17 @@ ul.social-icons li:last-child {
 ul.social-icons li a {
   color: #232d39;
   transition: all .3s;
-  color: #f9735b;
   font-weight: bolder;
+  text-decoration: none; /* Removes the underline from the link */
+  border: 2px solid #f9735b; /* Border color and thickness */
+  padding: 10px 20px; /* Padding inside the button */
+  background-color: transparent; /* Initial background color */
+  border-radius: 5px; /* Rounded corners */
 }
 
 ul.social-icons li a:hover {
-  color: #60FF39;
+  color: white; /* Text color on hover */
+  background-color: #f9735b; /* Background color on hover */
 }
 
 
